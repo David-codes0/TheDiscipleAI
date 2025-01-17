@@ -5,7 +5,7 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyDGFrjKvPhS_Gzy_TLxli2CCY9KMRF5vvw",
+            apiKey: "API_KEY",
             authDomain: "the-disciple-75324.firebaseapp.com",
             projectId: "the-disciple-75324",
             storageBucket: "the-disciple-75324.appspot.com",
